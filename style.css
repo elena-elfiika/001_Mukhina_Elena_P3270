@@ -1,0 +1,107 @@
+body {
+  font-family: Arial;
+  font-size: 14px;
+  color: #555;
+  margin: 0px;
+  padding: 0px;
+}
+
+nav {
+  height: 32px;
+  width: 100%;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  background-color: white;
+  text-align: center;
+  padding-top: 24px;
+  border-bottom: 1px solid #000;
+}
+
+nav a {
+  margin: 5px;
+}
+
+a, a:active, a:visited {
+  color: #999;
+}
+a:hover {
+  color: #000;
+}
+
+.main {
+  margin-top: 57px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+  background-color: #eee;
+}
+
+.main-information {
+  display: inline-block;
+  width: 60%;
+  vertical-align: top;
+  padding-left: 24px;
+}
+
+h1.user-name{
+  padding-left: 36px;
+}
+
+.about-info {
+  display: inline-block;
+  width: 70%;
+  margin-right: 5px;
+  vertical-align: top;
+}
+
+.main-photo {
+  display: inline-block;
+  width: 220px;
+  border: 1px solid #888;
+  border-radius: 5px;
+  background-color: lightgrey;
+}
+
+.main-photo img{
+  width: 200px;
+  height: 200px;
+  margin: 5px;
+  display: block;
+
+}
+
+.main-photo p{
+  text-align: center;
+  font-size: 10px;
+}
+
+.side-information{
+  display: inline-block;
+  width: 34%;
+  vertical-align: top;
+  padding-left: 10px;
+  margin-left: 5px;
+}
+
+.photo-gallery {
+  height: 300px;
+  width: 100%;
+  padding-left: 24px;
+}
+
+.photo-gallery img{
+  display: inline-block;
+  width: 150px;
+  height: 150px;
+  background-color: lightgrey;
+  margin: 10px;
+  vertical-align: middle;
+}
+
+footer {
+  width: 100%;
+  height: 49px;
+  border-top: 1px solid #000;
+  text-align: center;
+}
